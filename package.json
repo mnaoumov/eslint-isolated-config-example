@@ -1,0 +1,21 @@
+{
+  "name": "eslint-isolated-config-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@eslint/json": "^0.14.0",
+    "@types/node": "^25.0.3",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9.39.2",
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}
