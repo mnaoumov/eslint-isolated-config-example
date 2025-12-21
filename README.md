@@ -38,4 +38,7 @@ someRuleThatWorksOnlyForTs: src\file.ts
 
 ## See also
 
-Also check [`v2` branch](https://github.com/mnaoumov/eslint-isolated-config-example/tree/v2) with another approach which is closer to the expected result.
+Also check
+
+- [`v2` branch](https://github.com/mnaoumov/eslint-isolated-config-example/tree/v2) with another approach which is closer to the expected result.
+- [`v3` branch](https://github.com/mnaoumov/eslint-isolated-config-example/tree/v3) that works as expected.
