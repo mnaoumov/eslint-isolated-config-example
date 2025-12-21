@@ -12,18 +12,8 @@ npm run lint
 ## Actual output
 
 ```
-someOtherRuleThatWorksOnlyForTs: myPlugin.ts
-someRuleThatWorksOnlyForTs: myPlugin.ts
-someOtherRuleThatWorksOnlyForTs: otherPlugin.ts
-someRuleThatWorksOnlyForTs: otherPlugin.ts
-someOtherRuleThatWorksOnlyForTs: package.json
 someRuleThatWorksOnlyForJson: package.json
-someOtherRuleThatWorksOnlyForTs: someOtherRuleThatWorksOnlyForTs.ts
-someRuleThatWorksOnlyForTs: someOtherRuleThatWorksOnlyForTs.ts
-someOtherRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForJson.ts
-someRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForJson.ts
-someOtherRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForTs.ts
-someRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForTs.ts
+someRuleThatWorksOnlyForTs: package.json
 someOtherRuleThatWorksOnlyForTs: src\file.ts
 someRuleThatWorksOnlyForTs: src\file.ts
 ```

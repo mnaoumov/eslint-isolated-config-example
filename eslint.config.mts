@@ -5,9 +5,7 @@ import * as tsParser from '@typescript-eslint/parser';
 
 export default defineConfig([
   {
-    files: ['./src/*.ts']
-  },
-  {
+    files: ['./src/*.ts'],
     plugins: { otherPlugin },
     languageOptions: {
       parser: tsParser

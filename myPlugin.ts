@@ -30,7 +30,6 @@ myPlugin.configs.recommended = defineConfig([
     }
   },
   {
-    files: ['**/*.ts'],
     languageOptions: {
       parser: tsParser
     },
