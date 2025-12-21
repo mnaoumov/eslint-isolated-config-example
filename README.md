@@ -12,30 +12,17 @@ npm run lint
 ## Actual output
 
 ```
-someOtherRuleThatWorksOnlyForTs: myPlugin.ts
-someRuleThatWorksOnlyForTs: myPlugin.ts
-someOtherRuleThatWorksOnlyForTs: otherPlugin.ts
-someRuleThatWorksOnlyForTs: otherPlugin.ts
-someOtherRuleThatWorksOnlyForTs: package.json
-someRuleThatWorksOnlyForJson: package.json
-someOtherRuleThatWorksOnlyForTs: someOtherRuleThatWorksOnlyForTs.ts
-someRuleThatWorksOnlyForTs: someOtherRuleThatWorksOnlyForTs.ts
-someOtherRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForJson.ts
-someRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForJson.ts
-someOtherRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForTs.ts
-someRuleThatWorksOnlyForTs: someRuleThatWorksOnlyForTs.ts
 someOtherRuleThatWorksOnlyForTs: src\file.ts
 someRuleThatWorksOnlyForTs: src\file.ts
+someRuleThatWorksOnlyForJson: package.json
 ```
 
 ## Expected output
 
 ```
-someRuleThatWorksOnlyForJson: package.json
 someOtherRuleThatWorksOnlyForTs: src\file.ts
 someRuleThatWorksOnlyForTs: src\file.ts
+someRuleThatWorksOnlyForJson: package.json
 ```
 
-## See also
-
-Also check [`v2` branch](https://github.com/mnaoumov/eslint-isolated-config-example/tree/v2) with another approach which is closer to the expected result.
+Works as expected!
