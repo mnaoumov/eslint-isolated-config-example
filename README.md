@@ -35,3 +35,7 @@ someRuleThatWorksOnlyForJson: package.json
 someOtherRuleThatWorksOnlyForTs: src\file.ts
 someRuleThatWorksOnlyForTs: src\file.ts
 ```
+
+## See also
+
+Also check [`v2` branch](https://github.com/mnaoumov/eslint-isolated-config-example/tree/v2) with another approach which is closer to the expected result.
